@@ -3,22 +3,22 @@ public class StringManipulator {
         return str1.trim().concat(str2.trim());
     }
     public Integer getIndexOrNull(String str1, char character) {
-        int index = str1.indexOf(character);
-        if(index < 0) {
+        int idx = str1.indexOf(character);
+        if(idx < 0) {
             return null;
         }else {
-            return index;
+            return idx;
         }
     }
     public Integer getIndexOrNull(String str1, String str2) {
-        int index = str1.indexOf(str2);
-        if(index < 0) {
+        int idx = str1.indexOf(str2);
+        if(idx < 0) {
             return null;
         }else {
-            return index;
+            return idx;
         }
     }
-    public String concatSubstring(String str1, int index1, int index2, String str2) {
-        return str1.substring(index1, index2).concat(str2);
+    public String concatSubstring(String str1, int idx1, int idx2, String str2) {
+        return str1.substring(idx1, idx2).concat(str2);
     }
 }
