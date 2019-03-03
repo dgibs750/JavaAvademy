@@ -13,7 +13,7 @@ public class BasicJava {
     }
     //Print odd numbers between 1-255
     public Integer oddNums() {
-        ArrayList<Integer> oddNumArr = new ArrayList<Integer>();
+        //ArrayList<Integer> oddNumArr = new ArrayList<Integer>();
         for(int i = 1; i <= 255; i+=2) {
             System.out.println(i);
         }
